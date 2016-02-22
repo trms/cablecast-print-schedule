@@ -1,0 +1,6 @@
+﻿{
+  "name": "Cablecast Print Schedule",
+  "description": "Generate a printable version of your channel's schedule, including end time and producer name.",
+  "author": "Tightrope Media Systems",
+  "entry": "default.aspx"
+}
