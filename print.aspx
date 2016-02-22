@@ -49,7 +49,7 @@
 						}
 						SqlDr.Close();
 
-						Response.Write("Schedule for " + ChannelName + " starting " + startDate.ToString("d") + " for " + numDays.ToString() + "days\n\n");
+						Response.Write("Schedule for " + ChannelName + " starting " + startDate.ToString("d") + " for " + numDays.ToString() + " days\n\n");
 
 						string sql = @"DECLARE @PrintSchedule TABLE (RunStart datetime, RunEnd dateTime, Length int, CGTitle varchar(255), Producer varchar(255))
 
